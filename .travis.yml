@@ -1,13 +1,12 @@
 language: python
 dist: xenial
+arch:
+  - amd64
+  - arm64
 python:
 - '3.9-dev'
 - '3.8'
-- '3.7'
 - '3.6'
-- '3.5'
-- '3.4'
-- '2.7'
 
 install: skip
 before_script:
